@@ -121,7 +121,7 @@ class CupcakeOrderScreenTest {
         // And one option is selected
         composeTestRule.onNodeWithText("Vanilla").performClick()
 
-        // Then the next button is disabled
+        // Then the next button is enabled
         composeTestRule.onNodeWithStringId(R.string.next).assertIsEnabled()
     }
 
